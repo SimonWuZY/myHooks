@@ -39,7 +39,7 @@ console.log('✅ 类型定义:', packageJson.types);
 
 // 检查导出
 try {
-  const exports = require('./dist/index.js');
+  const exports = require('../dist/index.js');
   console.log('\n🔧 导出检查:');
   
   const expectedExports = [

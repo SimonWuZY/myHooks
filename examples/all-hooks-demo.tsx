@@ -8,7 +8,7 @@ import {
   useLocalStorage,
   useSse,
   debounce
-} from '@simonzywutt/react-hooks-collection';
+} from '@simonzywu/react-hooks-collection';
 
 // 用户数据类型
 interface User {

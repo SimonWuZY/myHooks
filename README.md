@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-npm install @simonzywutt/react-hooks-collection
+npm install @simonzywu/react-hooks-collection
 ```
 
 ## 包含的 Hooks
@@ -14,7 +14,7 @@ npm install @simonzywutt/react-hooks-collection
 用于处理 HTTP 请求的 Hook
 
 ```tsx
-import { useFetch } from '@simonzywutt/react-hooks-collection';
+import { useFetch } from '@simonzywu/react-hooks-collection';
 
 function MyComponent() {
   const { data, loading, error, refetch } = useFetch<User[]>('/api/users');
@@ -35,7 +35,7 @@ function MyComponent() {
 防抖 Hook，延迟更新值
 
 ```tsx
-import { useDebounce } from '@simonzywutt/react-hooks-collection';
+import { useDebounce } from '@simonzywu/react-hooks-collection';
 
 function SearchComponent() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -61,7 +61,7 @@ function SearchComponent() {
 防抖状态 Hook，直接提供防抖的 setState
 
 ```tsx
-import { useDebounceState } from '@simonzywutt/react-hooks-collection';
+import { useDebounceState } from '@simonzywu/react-hooks-collection';
 
 function SearchComponent() {
   const [searchTerm, setSearchTerm] = useDebounceState('', 500);
@@ -86,7 +86,7 @@ function SearchComponent() {
 防抖回调 Hook，对回调函数进行防抖处理
 
 ```tsx
-import { useDebounceCallback } from '@simonzywutt/react-hooks-collection';
+import { useDebounceCallback } from '@simonzywu/react-hooks-collection';
 
 function FormComponent() {
   const [formData, setFormData] = useState({ name: '', email: '' });
@@ -127,7 +127,7 @@ function FormComponent() {
 布尔值切换 Hook
 
 ```tsx
-import { useToggle } from '@simonzywutt/react-hooks-collection';
+import { useToggle } from '@simonzywu/react-hooks-collection';
 
 function ToggleComponent() {
   const [isVisible, toggle, setToggle] = useToggle(false);
@@ -147,7 +147,7 @@ function ToggleComponent() {
 本地存储 Hook
 
 ```tsx
-import { useLocalStorage } from '@simonzywutt/react-hooks-collection';
+import { useLocalStorage } from '@simonzywu/react-hooks-collection';
 
 function SettingsComponent() {
   const [theme, setTheme, removeTheme] = useLocalStorage('theme', 'light');
@@ -167,7 +167,7 @@ function SettingsComponent() {
 Server-Sent Events Hook
 
 ```tsx
-import { useSse } from '@simonzywutt/react-hooks-collection';
+import { useSse } from '@simonzywu/react-hooks-collection';
 
 function EventsComponent() {
   const { 
