@@ -1,5 +1,5 @@
 {
-  "name": "@simonzywutt/react-hooks-collection",
+  "name": "@simonzywu/react-hooks-collection",
   "version": "1.0.0",
   "description": "A collection of useful React hooks with TypeScript support",
   "main": "dist/index.js",
